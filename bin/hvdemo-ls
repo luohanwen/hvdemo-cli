@@ -1,0 +1,5 @@
+const chalk = require("chalk");
+
+console.log(`demo-flexible ${chalk.gray("# 移动端自适应")}`);
+
+

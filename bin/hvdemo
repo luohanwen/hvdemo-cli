@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+require("commander")
+    .version(require("../package").version, "-v,--version")
+    .usage("<command> [options]")
+    .command("install", "download demo from github")
+    .command("ls", "show demo list")
+    .parse(process.argv);
